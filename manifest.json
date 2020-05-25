@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Selector de Cursos CFBS",
+    "version": "0.1",
+    "description": "Extensión realizada en el curso de código facilito para señalar los cursos de CF con duración menor o igual a la configurada por el usuario",
+    "author": "Stalin Maza",
+    "version_name": "0.1 Alpha",
+    "icons": {
+        "16": "img/icons/StalinExt-16.png",
+        "48": "img/icons/StalinExt-48.png",
+        "128": "img/icons/StalinExt-128.png"
+    },
+    "browser_action": {
+        "default_popup": "html/popup.html"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
